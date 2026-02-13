@@ -17,16 +17,16 @@ In this milestone, we developed a secure user authentication system using Stream
 ## Steps to Run the Application
 
 ### 1. Install Dependencies
-Open your terminal and install the required Python libraries:
-pip install streamlit streamlit-antd-components pyjwt
+Open your terminal and install the required Python libraries:<br>
+`pip install streamlit streamlit-antd-components pyjwt`
 
 ### 2. Run the Application
-Navigate to the project directory and execute the Streamlit application:
-streamlit run app.py
+Navigate to the project directory and execute the Streamlit application:<br>
+`streamlit run app.py`
 
 ### 3. Expose via Ngrok (Optional)
-To make the application accessible remotely, open a new terminal and run:
-ngrok http 8501
+To make the application accessible remotely, open a new terminal and run:<br>
+`ngrok http 8501`
 
 ## Screenshots
 
