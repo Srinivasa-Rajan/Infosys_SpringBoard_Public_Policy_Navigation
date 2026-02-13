@@ -31,7 +31,7 @@ ngrok http 8501
 ## Screenshots
 
 ### Signup Page
-![Signup Page Screenshot](path/to/signup_screenshot.png)
+![Signup Page Screenshot](path/to/SignUp.png)
 *(Replace the above line with your actual screenshot of the Signup form)*
 
 ### Login Page
