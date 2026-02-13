@@ -31,11 +31,11 @@ ngrok http 8501
 ## Screenshots
 
 ### Signup Page
-![Signup Page Screenshot](path/to/SignUp.png)
+![Signup Page Screenshot](screenshots/SignUp.png)
 *(Replace the above line with your actual screenshot of the Signup form)*
 
 ### Login Page
-![Login Page Screenshot](path/to/login_screenshot.png)
+![Login Page Screenshot](/login_screenshot.png)
 *(Replace the above line with your actual screenshot of the Login tab)*
 
 ### Dashboard
