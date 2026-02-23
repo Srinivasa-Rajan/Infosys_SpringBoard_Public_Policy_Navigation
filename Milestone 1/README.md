@@ -1,6 +1,6 @@
 # Milestone 1 - User Authentication System
 
-## Project Title
+## User Authentication
 Secure User Authentication with Streamlit, SQLite, and JWT
 
 ## Description
