@@ -28,7 +28,7 @@ In this milestone, we expanded the authentication system to include Role-Based A
 
 Open your terminal and install the required Python libraries:
 
-pip install streamlit streamlit-antd-components pyjwt pyngrok PyPDF2 textstat plotly pandas
+`pip install streamlit streamlit-antd-components pyjwt pyngrok PyPDF2 textstat plotly pandas`
 
 ### 2. Configure Environment Variables
 
@@ -46,13 +46,13 @@ Ensure your secure credentials are set in your environment before running (e.g.,
 
 Navigate to the project directory and execute the Streamlit application:
 
-streamlit run app.py
+`streamlit run app.py`
 
 ### 4. Expose via Ngrok (Optional)
 
 To make the application accessible remotely, open a new terminal and run:
 
-ngrok http 8501
+`ngrok http 8501`
 
 ## Screenshots
 
@@ -67,3 +67,4 @@ ngrok http 8501
 ### OTP Verification Flow
 
 ![OTP Authentication Screenshot](screenshots/OTPVerification.png) ![OTP Mail Screenshot](screenshots/MailOTP.png)
+
