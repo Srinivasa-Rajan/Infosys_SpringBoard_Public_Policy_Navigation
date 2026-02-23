@@ -4,7 +4,7 @@
 Secure User Authentication with Streamlit, SQLite, and JWT
 
 ## Description
-In this milestone, we developed a secure user authentication system using Streamlit for the frontend, SQLite for the database, and JWT (JSON Web Tokens) for session management. The application implements a complete authentication flow, including user registration with strict validation, secure login, a protected dashboard, and a multi-step password recovery system using security questions. The system is designed to be lightweight, secure, and easily deployable via Ngrok.
+In this milestone, we developed a secure user authentication system using Streamlit for the frontend, SQLite for the database, and JWT (JSON Web Tokens) for session management. The application implements a complete authentication flow, including user registration with strict validation, secure login, a protected dashboard, and a multi-step password recovery system using security questions. The system is designed to be lightweight, secure, and easily deployable via [Ngrok](https://ngrok.com/?homepage-cta-docs=test).
 
 ## Features Implemented
 - **User Signup:** Registration form with strict validation for email format and password strength (requires 8+ characters, 1 uppercase, 1 number).
