@@ -70,15 +70,15 @@ Role-Based Access: Separate views for Admins (User management/Security monitorin
 
 1\. Install Required Dependencies
 
-`Bash
+`Bash`
 
-pip install streamlit pyjwt bcrypt python-dotenv pyngrok nltk streamlit-option-menu \\
+`pip install streamlit pyjwt bcrypt python-dotenv pyngrok nltk streamlit-option-menu \\`
 
-&nbsp;   plotly textstat PyPDF2 pandas sentence-transformers faiss-cpu \\
+`&nbsp;   plotly textstat PyPDF2 pandas sentence-transformers faiss-cpu \\`
 
-&nbsp;   beautifulsoup4 spacy pyvis networkx transformers accelerate bitsandbytes
+`&nbsp;   beautifulsoup4 spacy pyvis networkx transformers accelerate bitsandbytes`
 
-python -m spacy download en\_core\_web\_sm`
+`python -m spacy download en\_core\_web\_sm`
 
 2\. Configure Environment Variables
 
@@ -118,9 +118,9 @@ Run the Ingest cell in the main application to build the FAISS index.
 
 🚀 Running the Application
 
-Bash
+`Bash`
 
-streamlit run app.py
+`streamlit run app.py `
 
 📊 Technical Stack
 
@@ -145,5 +145,6 @@ Graphs: NetworkX \& Pyvis
 
 
 Metrics: Textstat (Readability)
+
 
 
