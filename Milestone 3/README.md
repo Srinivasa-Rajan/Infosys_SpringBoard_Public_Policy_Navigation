@@ -10,7 +10,7 @@ The core of the "Public Policy Compass" is a bi-directional RAG system that allo
 * **Semantic Retrieval**: Uses **FAISS (Facebook AI Similarity Search)** combined with the `paraphrase-multilingual-MiniLM-L12-v2` embedder to find relevant policy sections across language barriers.
 * **Language Simplification**: Includes a "Simplify Language" toggle that adjusts the LLM prompt to rephrase complex legal jargon into middle-school level English.
 
-![AI Chat Function Interface](AI_CHAT.png)
+![AI Chat Function Interface](screenshots/AI_CHAT.png)
 
 ## 2. Multi-Language Summarization
 This module allows users to upload lengthy policy PDFs and receive immediate, actionable insights in their preferred language.
@@ -19,7 +19,7 @@ This module allows users to upload lengthy policy PDFs and receive immediate, ac
 * **Concise Output**: The engine is prompted to condense documents into three highly concise bullet points to ensure readability for general citizens.
 * **Cross-Language Output**: Summaries can be generated directly into any supported Indian language, regardless of the source document's original language.
 
-![Document Summarization Module](AI_SUMMARY.png)
+![Document Summarization Module](screenshots/AI_SUMMARY.png)
 
 ## 3. Policy Knowledge Graph
 To visualize the complex web of government acts and organizations, a Knowledge Graph is extracted from the vector store.
@@ -28,7 +28,7 @@ To visualize the complex web of government acts and organizations, a Knowledge G
 * **Relationship Mapping**: Maps connections between entities based on their co-occurrence within the same policy document chunks.
 * **Interactive Visualization**: Built with **PyVis** and **NetworkX**, featuring hover effects to highlight paths and a double-click "Focus Mode" to filter specific clusters.
 
-![Policy Knowledge Graph Visualization](KNOWLEDGE_GRAPH.png)
+![Policy Knowledge Graph Visualization](screenshots/KNOWLEDGE_GRAPH.png)
 
 ## Installation & Execution (Milestone 3)
 
